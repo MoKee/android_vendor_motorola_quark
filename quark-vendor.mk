@@ -18,24 +18,24 @@
 
 # /system/app
 PRODUCT_PACKAGES += \
-    appdirectedsmspermission \
-    atfwd \
-    MotGeoFenceSvc \
     qcrilmsgtunnel \
     TimeService \
-    VZWAPNLib \
-    vzwapnpermission
+    VZWAPNLib
 
 # /system/framework
 PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne \
+    com.verizon.hardware.telephony.ehrpd.jar \
+    com.verizon.hardware.telephony.lte.jar \
     org.simalliance.openmobileapi \
     qcnvitems \
     qcrilhook
 
 # /system/priv-app
 PRODUCT_PACKAGES += \
+    AppDirectedSMSProxy \
+    atfwd \
     BuaContactAdapter \
     CNEService \
     com.qualcomm.location \
